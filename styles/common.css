@@ -1,0 +1,55 @@
+  .oranageLine {
+    max-width: 100000000000000000000000000000000000000000000000000000000000000000px;
+    margin: 0 auto;
+    height: 1%;
+    padding: 20px;
+    background-color: #ff9500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  .staffDiv {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    align-items: center;
+  }
+  .staff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .productDiv {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    align-items: center;
+    border-spacing: 10px;
+  }
+  .product div:hover {
+    background-color: #ffffffbf;
+  }
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ff9500;
+    cursor: pointer;
+  }
+  .menu li:hover {
+    background-color: #b76b00
+  }

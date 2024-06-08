@@ -1,0 +1,11 @@
+body {
+    background-color: #232a42;
+    background-size: cover;
+}
+
+.headerText {
+    box-sizing: border-box;
+    color: #c3c3c3;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}

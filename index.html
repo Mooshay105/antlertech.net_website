@@ -1,65 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="styles/img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="styles/common.css">
-    <link rel="stylesheet" type="text/css" href="styles/dark.css">
-    <title>Antler Tech | Home</title>
-</head>
-<header class="background">
-    <div class="oranageLine" style="display: flex;">
-        <img alt="Antler Logo" src="styles/img/bannerLogo.png" width="125px" height="64px">
-        <ul class="menu">
-            <li onclick="location.href='index.html';">
-                <div1>Home</div1>
-            </li>
-            <li onclick="location.href='products.html';">
-                <div1>Products</div1>
-            </li>
-            <li onclick="location.href='about.html';">
-                <div1>About</div1>
-            </li>
-        </ul>
-    </div>
-</header>
-<body class="background">
-    <h2 align="center">
-        Welcome to Antler Tech! We are a small company with BIG ideas.
-    </h2>
-    <h3 align="center">Meet the staff:</h3>
-    <div align="center" class="staff">
-        <div class="staffDiv">
-            <img alt="Malcolm - CEO" src="styles/img/malcolm.png" width="200px" height="200px">
-            <h3 class="blackText">Malcolm</h3>
-            <p class="blackText">CEO / Everything</p>
+<html>
+    <head>
+      <title>Antler Tech | Home</title>
+        <link rel="icon" type="image/png" href="assets/favion.png">
+        <link id="theme-style" rel="stylesheet" type="text/css" href="assets/dark.css">
+        <link rel="stylesheet" type="text/css" href="assets/global.css">
+    </head>
+    <header class="span">
+      <div class="container">
+        <img onclick="location.href='index.html';" class="logoPadding" src="assets/logo.png" alt="Logo Did Not Render!" width="105px" height="57.25px">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="dark-mode-toggle" class="darkModeToggle">
+            <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+        </button>
+        <script src="assets/switch.js"></script>
+      </div> 
+    </header>
+    <body class="span">
+      <div class="headerText" align="center">
+        <h1>Welcome To Antler Tech!</h1>
+      </div>
+      <div align="center">
+        <h1 class="headerText" align="center">Our Products:</h1>
+        <div class="products">
+          <div onclick="location.href='cameraKit.html';" class="productItem" align="center">
+            <img src="assets/comingSoon.png" alt="Camera Kit Image" width="250px" height="250px">
+            <h2>Camera Kit</h2>
+            <p>$Place Holder</p>
+          </div>
+          <div onclick="location.href='webSite.html';" class="productItem" align="center">
+            <img src="assets/comingSoon.png" alt="Web Site Image" width="250px" height="250px">
+            <h2>Web Site</h2>
+            <p>$Place Holder</p>
+          </div>
+          <div onclick="location.href='products.html';" class="buttonItem" align="center">
+            <br><br><br><br>
+            <img align="middle" src="assets/arrow.png" alt="Malcolm | CEO" width="100px" height="100px">
+            <h2>More</h2>
+          </div>
         </div>
-    </div>
-    <!--
-    <br>
-    <br>
-    <div align="center" class="staff">
-        <div class="staffDiv">
-            <img alt="Placeholder - Placeholder" src="styles/img/Placeholder.png" width="200px" height="200px">
-            <h3 class="blackText">Placeholder</h3>
-            <p class="blackText">Placeholder</p>
+        <div class="aboutUsText" align="left">
+          <h1 class="headerText" align="center">About Us</h1>
+          <p>
+            We are a small company but we have BIG ideas! Antler tech is based in the Australia / New Zealand region. All products are hand made. 
+          </p>
         </div>
-        <div class="staffDiv">
-            <img alt="Placeholder - Placeholder" src="styles/img/Placeholder.png" width="200px" height="200px">
-            <h3 class="blackText">Placeholder</h3>
-            <p class="blackText">Placeholder</p>
+        <div class="staff">
+          <h2 class="headerText" align="center">Meet Our Staff:</h2>
+          <div class="staffItem" align="center">
+            <img src="assets/malcolm.png" alt="Malcolm | CEO" width="200px" height="200px">
+            <h2>Malcolm Hauser</h2>
+            <p>CEO / Everything</p>
+          </div>
         </div>
-        <div class="staffDiv">
-            <img alt="Placeholder - Placeholder" src="styles/img/Placeholder.png" width="200px" height="200px">
-            <h3 class="blackText">Placeholder</h3>
-            <p class="blackText">Placeholder</p>
-        </div>
-        <div class="staffDiv">
-            <img alt="Placeholder - Placeholder" src="styles/img/Placeholder.png" width="200px" height="200px">
-            <h3 class="blackText">Placeholder</h3>
-            <p class="blackText">Placeholder</p>
-        </div>
-    </div>
-    -->
-</body>
+      </div>
+    </body>
+    <footer class="bottom">
+      <br>
+      <p align="center">&copy; 2024 Antler Tech - antlertech.net</p>
+      <br>
+    </footer>
 </html>

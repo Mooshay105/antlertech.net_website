@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="styles/img/logo.png">
-    <link rel="stylesheet" type="text/css" href="styles/common.css">
-    <link rel="stylesheet" type="text/css" href="styles/dark.css">
-    <title>Antler Tech | Home</title>
-</head>
-<header class="background">
-    <div style="display: flex;">
-        <img alt="Antler Logo" src="styles/img/logoBanner.png" width="337.5px" height="65.125">
+<html>
+    <head>
+      <title>Antler Tech | Products</title>
+        <link rel="icon" type="image/png" href="assets/favion.png">
+        <link id="theme-style" rel="stylesheet" type="text/css" href="assets/dark.css">
+        <link rel="stylesheet" type="text/css" href="assets/global.css">
+    </head>
+    <header class="span">
+        <div class="container">
+          <img onclick="location.href='index.html';" class="logoPadding" src="assets/logo.png" alt="Logo Did Not Render!" width="105px" height="57.25px">
+            <nav>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+              </ul>
+            </nav>
+            <button id="dark-mode-toggle" class="darkModeToggle">
+                <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+            </button>
+            <script src="assets/switch.js"></script>
+          </div>
+    </header>
+    <body class="span">
+      <div align="center">
+        <div class="aboutUsText" align="left">
+            <h1 class="headerText" align="center">About Us</h1>
+            <p>
+              We are a small company but we have BIG ideas! Antler tech is based in the Australia / New Zealand region. All products are hand made. 
+            </p>
+          </div>
       </div>
-    <div class="oranageLine" style="display: flex;">
-        <ul class="menu">
-            <li onclick="location.href='index.html';">
-                <div1>Home</div1>
-            </li>
-            <li onclick="location.href='products.html';">
-                <div1>Products</div1>
-            </li>
-            <li onclick="location.href='about.html';">
-                <div1>About</div1>
-            </li>
-        </ul>
-    </div>
-</header>
-<body class="background">
-    <h2 align="center">
-        Welcome to Antler Tech! We are a small company with BIG ideas.
-    </h2>
-    <p>
-        hh
-    </p>
-</body>
+    </body>
+    <footer class="bottom">
+      <br>
+      <p align="center">&copy; 2024 Antler Tech - antlertech.net</p>
+      <br>
+    </footer>
 </html>
